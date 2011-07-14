@@ -18,6 +18,7 @@ LabeledSlider::LabeledSlider(QWidget *parent) :
 
     QObject::connect(iSlider, SIGNAL(valueChanged(int)),
                      this, SLOT(setLabelFromNumber(int)));
+
 }
 
 void LabeledSlider::setLabelFromNumber(int num)
