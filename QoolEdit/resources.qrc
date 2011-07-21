@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>img/LogoZone-60970253142601.JPG</file>
-        <file>img/Close Icon.jpg</file>
+        <file alias="foo">img/Close Icon.jpg</file>
     </qresource>
 </RCC>
